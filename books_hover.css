@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+:root {
+  --brigde-pink: #ff74a5;
+  --b_color-pink: #df4184;
+  --cover-pink: #df4385;
+  --brigde-purple: #af1dfc;
+  --b_color-purple: #742399;
+  --cover-purple: #76269a;
+  --brigde-green: #519700;
+  --b_color-green: #355e00;
+  --cover-green: #396004;
+  --brigde-blue: #009de3;
+  --b_color-blue: #006fae;
+  --cover-blue: #0773b0;
+  --brigde-orange: #e1ab00;
+  --b_color-orange: #9a7100;
+  --cover-orange: #9b7202;
+  --pages: #fadcb8;
+  --b-white: white;
+}
+#books {
+  left: 50%;
+  top: 50%;
+}
+
+#pages {
+  fill: var(--pages);
+}
+#b_white {
+  fill: var(--b-white);
+}
+
+#purpleBook #bridge {
+  fill: var(--brigde-purple);
+}
+#purpleBook #b_color {
+  fill: var(--b_color-purple);
+}
+#purpleBook #cover {
+  fill: var(--cover-purple);
+}
+
+#orangeBook #bridge {
+  fill: var(--brigde-orange);
+}
+#orangeBook #b_color {
+  fill: var(--b_color-orange);
+}
+#orangeBook #cover {
+  fill: var(--cover-orange);
+}
+
+#blueBook #bridge {
+  fill: var(--brigde-blue);
+}
+#blueBook #b_color {
+  fill: var(--b_color-blue);
+}
+#blueBook #cover {
+  fill: var(--cover-blue);
+}
+
+#greenBook #bridge {
+  fill: var(--brigde-green);
+}
+#greenBook #b_color {
+  fill: var(--b_color-green);
+}
+#greenBook #cover {
+  fill: var(--cover-green);
+}
+
+#pinkBook #bridge {
+  fill: var(--brigde-pink);
+}
+#pinkBook #b_color {
+  fill: var(--b_color-pink);
+}
+#pinkBook #cover {
+  fill: var(--cover-pink);
+}
+
+svg {
+    cursor: pointer;
+    position: absolute;
+}
+
+/* the bridge colours */
+@keyframes purple_bridge {
+    20% {fill:var(--brigde-purple);}
+    40% { fill: var(--brigde-pink); }
+    60% { fill: var(--brigde-blue); }
+    80% { fill: var(--brigde-green); }
+    100% { fill: var(--brigde-orange); }
+}
+@keyframes pink_bridge {
+    20% {fill:var(--brigde-pink);}
+    40% { fill: var(--brigde-blue); }
+    60% { fill: var(--brigde-green); }
+    80% { fill: var(--brigde-orange); }
+    100% { fill: var(--brigde-purple); }
+}
+@keyframes blue_bridge {
+    20% {fill:var(--brigde-blue);}
+    40% { fill: var(--brigde-green); }
+    60% { fill: var(--brigde-orange); }
+    80% { fill: var(--brigde-purple); }
+    100% { fill: var(--brigde-pink); }
+}
+@keyframes green_bridge {
+    20% {fill:var(--brigde-green);}
+    40% { fill: var(--brigde-orange); }
+    60% { fill: var(--brigde-purple); }
+    80% { fill: var(--brigde-pink); }
+    100% { fill: var(--brigde-blue); }
+}
+@keyframes orange_bridge {
+    20% {fill:var(--brigde-orange);}
+    40% { fill: var(--brigde-purple); }
+    60% { fill: var(--brigde-pink); }
+    80% { fill: var(--brigde-blue); }
+    100% { fill: var(--brigde-green); }
+}
+
+/* the b color */
+@keyframes purple_b_color {
+    20% {fill:var(--b_color-purple);}
+    40% { fill: var(--b_color-pink); }
+    60% { fill: var(--b_color-blue); }
+    80% { fill: var(--b_color-green); }
+    100% { fill: var(--b_color-orange); }
+}
+@keyframes pink_b_color {
+    20% {fill:var(--b_color-pink);}
+    40% { fill: var(--b_color-blue); }
+    60% { fill: var(--b_color-green); }
+    80% { fill: var(--b_color-orange); }
+    100% { fill: var(--b_color-purple); }
+}
+@keyframes blue_b_color {
+    20% {fill:var(--b_color-blue);}
+    40% { fill: var(--b_color-green); }
+    60% { fill: var(--b_color-orange); }
+    80% { fill: var(--b_color-purple); }
+    100% { fill: var(--b_color-pink); }
+}
+@keyframes green_b_color {
+    20% {fill:var(--b_color-green);}
+    40% { fill: var(--b_color-orange); }
+    60% { fill: var(--b_color-purple); }
+    80% { fill: var(--b_color-pink); }
+    100% { fill: var(--b_color-blue); }
+}
+@keyframes orange_b_color {
+    20% {fill:var(--b_color-orange);}
+    40% { fill: var(--b_color-purple); }
+    60% { fill: var(--b_color-pink); }
+    80% { fill: var(--b_color-blue); }
+    100% { fill: var(--b_color-green); }
+}
+
+/* the cover color */
+@keyframes purple_cover {
+    20% {fill:var(--cover-purple);}
+    40% { fill: var(--cover-pink); }
+    60% { fill: var(--cover-blue); }
+    80% { fill: var(--cover-green); }
+    100% { fill: var(--cover-orange); }
+}
+@keyframes pink_cover {
+    20%{fill:var(--cover-pink);}
+    40% { fill: var(--cover-blue); }
+    60% { fill: var(--cover-green); }
+    80% { fill: var(--cover-orange); }
+    100% { fill: var(--cover-purple); }
+}
+@keyframes blue_cover {
+    20%{fill:var(--cover-blue);}
+    40% { fill: var(--cover-green); }
+    60% { fill: var(--cover-orange); }
+    80% { fill: var(--cover-purple); }
+    100% { fill: var(--cover-pink); }
+}
+@keyframes green_cover {
+    20%{fill:var(--cover-green);}
+    40% { fill: var(--cover-orange); }
+    60% { fill: var(--cover-purple); }
+    80% { fill: var(--cover-pink); }
+    100% { fill: var(--cover-blue); }
+}
+@keyframes orange_cover {
+    20%{fill:var(--cover-orange);}
+    40% { fill: var(--cover-purple); }
+    60% { fill: var(--cover-pink); }
+    80% { fill: var(--cover-blue); }
+    100% { fill: var(--cover-green); }
+}
+
+svg:hover #purpleBook #bridge{
+    animation:purple_bridge 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+svg:hover #orangeBook #bridge {
+    animation:orange_bridge 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+svg:hover #blueBook #bridge {
+    animation:blue_bridge 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+svg:hover #greenBook #bridge {
+    animation:green_bridge 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+svg:hover #pinkBook #bridge {
+    animation:pink_bridge 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+
+svg:hover #purpleBook #cover{
+    animation:purple_cover 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+svg:hover #orangeBook #cover{
+    animation:orange_cover 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+svg:hover #blueBook #cover{
+    animation:blue_cover 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+svg:hover #greenBook #cover{
+    animation:green_cover 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+svg:hover #pinkBook #cover{
+    animation:pink_cover 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+
+svg:hover #purpleBook #b_color{
+    animation:purple_b_color 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+svg:hover #orangeBook #b_color {
+    animation:orange_b_color 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+svg:hover #blueBook #b_color {
+    animation:blue_b_color 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+svg:hover #greenBook #b_color {
+    animation:green_b_color 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+svg:hover #pinkBook #b_color {
+    animation:pink_b_color 5s alternate infinite;
+    animation-delay: 0.1s;
+}
+
