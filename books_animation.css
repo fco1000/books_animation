@@ -25,9 +25,9 @@ body {
   --pages: #fadcb8;
   --b-white: white;
 }
-#books {
-  left: 50%;
-  top: 50%;
+svg {
+  left: 30%;
+  top: 20%;
 }
 
 #pages {
@@ -201,6 +201,20 @@ svg {
     60% { fill: var(--cover-pink); }
     80% { fill: var(--cover-blue); }
     100% { fill: var(--cover-green); }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+svg {
+  animation: rotation 5s linear infinite;
+  animation-delay: 0.01s;
 }
 
 #purpleBook #bridge{
