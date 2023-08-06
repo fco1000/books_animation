@@ -12,7 +12,7 @@ There are two:
   </video>
 </figure>
 
-## 1. the hover animation
+## 2. the hover animation
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
