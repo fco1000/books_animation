@@ -366,65 +366,65 @@ svg:hover {
   animation-delay: 0.01s;
 }
 
-#purpleBook #bridge {
+svg:hover #purpleBook #bridge {
   animation: purple_bridge 5s alternate infinite;
   animation-delay: 0.1s;
 }
-#orangeBook #bridge {
+svg:hover #orangeBook #bridge {
   animation: orange_bridge 5s alternate infinite;
   animation-delay: 0.1s;
 }
-#blueBook #bridge {
+svg:hover #blueBook #bridge {
   animation: blue_bridge 5s alternate infinite;
   animation-delay: 0.1s;
 }
-#greenBook #bridge {
+svg:hover #greenBook #bridge {
   animation: green_bridge 5s alternate infinite;
   animation-delay: 0.1s;
 }
-#pinkBook #bridge {
+svg:hover #pinkBook #bridge {
   animation: pink_bridge 5s alternate infinite;
   animation-delay: 0.1s;
 }
 
-#purpleBook #cover {
+svg:hover #purpleBook #cover {
   animation: purple_cover 5s alternate infinite;
   animation-delay: 0.1s;
 }
-#orangeBook #cover {
+svg:hover #orangeBook #cover {
   animation: orange_cover 5s alternate infinite;
   animation-delay: 0.1s;
 }
-#blueBook #cover {
+svg:hover #blueBook #cover {
   animation: blue_cover 5s alternate infinite;
   animation-delay: 0.1s;
 }
-#greenBook #cover {
+svg:hover #greenBook #cover {
   animation: green_cover 5s alternate infinite;
   animation-delay: 0.1s;
 }
-#pinkBook #cover {
+svg:hover #pinkBook #cover {
   animation: pink_cover 5s alternate infinite;
   animation-delay: 0.1s;
 }
 
-#purpleBook #b_color {
+svg:hover #purpleBook #b_color {
   animation: purple_b_color 5s alternate infinite;
   animation-delay: 0.1s;
 }
-#orangeBook #b_color {
+svg:hover #orangeBook #b_color {
   animation: orange_b_color 5s alternate infinite;
   animation-delay: 0.1s;
 }
-#blueBook #b_color {
+svg:hover #blueBook #b_color {
   animation: blue_b_color 5s alternate infinite;
   animation-delay: 0.1s;
 }
-#greenBook #b_color {
+svg:hover #greenBook #b_color {
   animation: green_b_color 5s alternate infinite;
   animation-delay: 0.1s;
 }
-#pinkBook #b_color {
+svg:hover #pinkBook #b_color {
   animation: pink_b_color 5s alternate infinite;
   animation-delay: 0.1s;
 }
